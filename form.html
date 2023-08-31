@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>form</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+        <h1>Contacts</h1>
+
+    </head>
+    <body>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+
+        <label for="message">Message</label>
+        <textarea id="message"></textarea>
+
+        <label for="priority"></label>
+        <select id="priority">
+            <option value="1">Low</option>
+            <option value="2" selected="Medium">Medium</option>
+            <option value="3">High</option>
+        </select>
+        <fieldset>
+            <legend>Types</legend>
+            <label >
+                <input type="radio" name="type" value="1">
+                Complaints
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="type" value="2">
+                Suggestions
+            </label>
+        </fieldset>
+
+        <label>
+            <input type="checkbox">
+            I agree to terms and conditions
+        </label>
+    </body>
+</html>
