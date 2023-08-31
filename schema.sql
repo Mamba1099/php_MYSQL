@@ -1,8 +1,8 @@
-CREATE DATABASE message_db;
+CREATE DATABASE IF NOT EXISTS message_db;
 
 USE message_db;
 
-CREATE TABLE Message (
+CREATE TABLE IF NOT EXISTS Message (
     Id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(128),
     body TEXT NOT NULL,
